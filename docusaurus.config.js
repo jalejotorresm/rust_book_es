@@ -8,13 +8,13 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "De Cero a Rustaceo",
+  title: "El Libro de Rust (version Compacta)",
   tagline:
-    "Un sitio en español dedicado al aprendizaje y divulgacion de conocmimento del lenguaje de programacion Rust",
-  favicon: "img/ferris.svg",
+    "Traduccion al español del libro The Rust Book (Abridged), escrito por Jason Walton.",
+  favicon: "img/ferris.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://jalejotorresm.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -23,6 +23,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "jalejotorresm", // Usually your GitHub org/user name.
   projectName: "rust_book_es", // Usually your repo name.
+  deploymentBranch: "main",
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -31,8 +33,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "es-co",
-    locales: ["es-co"],
+    defaultLocale: "es",
+    locales: ["es"],
   },
 
   presets: [
@@ -57,10 +59,10 @@ const config = {
       // Replace with your project's social card
       image: "img/proyecto-social-card.png",
       navbar: {
-        title: "De Cero a Rustaceo",
+        title: "El Libro de Rust (version Compacta)",
         logo: {
           alt: "My Site Logo",
-          src: "img/ferris.svg",
+          src: "img/ferris.png",
         },
         items: [
           {
@@ -91,6 +93,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ["rust"],
       },
     }),
 };

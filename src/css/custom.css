@@ -6,25 +6,33 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ef7c1d;
-  --ifm-color-primary-dark: #eb7310;
-  --ifm-color-primary-darker: #d96a0f;
-  --ifm-color-primary-darkest: #c7610e;
-  --ifm-color-primary-light: #f1862f;
-  --ifm-color-primary-lighter: #f28f3f;
-  --ifm-color-primary-lightest: #f3994f;
+  --ifm-color-primary-darkest: #521010;
+  --ifm-color-primary-darker: #5f1414;
+  --ifm-color-primary-dark: #6c1919;
+  --ifm-color-primary: #792020;
+  --ifm-color-primary-light: #862a2a;
+  --ifm-color-primary-lighter: #933939;
+  --ifm-color-primary-lightest: #a14c4c;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #f5aa6d;
-  --ifm-color-primary-dark: #f39b54;
-  --ifm-color-primary-darker: #f18e3c;
-  --ifm-color-primary-darkest: #f08025;
-  --ifm-color-primary-light: #f5af76;
-  --ifm-color-primary-lighter: #f6b580;
-  --ifm-color-primary-lightest: #f7bb8b;
+  --ifm-color-primary-darkest: #bd6060;
+  --ifm-color-primary-darker: #c86767;
+  --ifm-color-primary-dark: #d37070;
+  --ifm-color-primary: #de7b7b;
+  --ifm-color-primary-light: #e98989;
+  --ifm-color-primary-lighter: #f49c9c;
+  --ifm-color-primary-lightest: #ffb3b3;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* This works around the issue of truncated code-blocks in https://github.com/signcl/docusaurus-prince-pdf/ */
+@media print {
+  code[class*="codeBlockLines"] {
+    float: none;
+    display: block;
+  }
 }
