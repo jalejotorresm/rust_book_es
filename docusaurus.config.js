@@ -17,7 +17,7 @@ const config = {
   url: "https://jalejotorresm.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/rust_book_es/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
