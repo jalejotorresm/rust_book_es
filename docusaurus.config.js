@@ -23,8 +23,6 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "jalejotorresm", // Usually your GitHub org/user name.
   projectName: "rust_book_es", // Usually your repo name.
-  deploymentBranch: "main",
-  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
