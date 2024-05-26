@@ -8,9 +8,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "El Libro de Rust (version Compacta)",
+  title: "El Libro de Rust (versión Compacta)",
   tagline:
-    "Traduccion al español del libro The Rust Book (Abridged), escrito por Jason Walton.",
+    "Traducción al español del libro The Rust Book (Abridged), escrito por Jason Walton.",
   favicon: "img/ferris.png",
 
   // Set the production url of your site here
@@ -55,9 +55,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/proyecto-social-card.png",
+      image: "img/project-social-card.png",
       navbar: {
-        title: "El Libro de Rust (version Compacta)",
+        title: "El Libro de Rust (versión Compacta)",
         logo: {
           alt: "My Site Logo",
           src: "img/ferris.png",
@@ -86,7 +86,7 @@ const config = {
             href: "https://github.com/jalejotorresm",
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Julian Alejandro Torres Morales. Hecho con Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Julián Alejandro Torres Morales. Proyecto realizado con Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
