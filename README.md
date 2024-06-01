@@ -1,10 +1,10 @@
 # El Libro de Rust (version Compacta)
 
-Este repositorio es la traduccion al español del libro _The Rust Book (Abridged)_, escrito por Jason Walton.
+Este repositorio es la traducción al español del libro _The Rust Book (Abridged)_, escrito por Jason Walton.
 
 El proyecto se ha realizado a traves de [Docusaurus](https://docusaurus.io/).
 
-[Aqui](https://jasonwalton.ca/rust-book-abridged/) puedes encontrar el archivo fuente en ingles.
+[Aquí](https://jasonwalton.ca/rust-book-abridged/) puedes encontrar el archivo fuente en ingles.
 
 ## Para ejecutar el libro de forma local
 
@@ -26,18 +26,18 @@ Instala las dependencias
   npm install
 ```
 
-Ejecuta la aplicacion
+Ejecuta la aplicación
 
 ```bash
   npx docusaurus start --host 0.0.0.0
 ```
 
-El proceso abrira la documentacion en `http://localhost:3000/` o en `http://tu_ direccion_ip:3000/` en el navegador por defecto.
+El proceso abrirá la documentación en `http://localhost:3000/` o en `http://tu_ dirección_ip:3000/` en el navegador por defecto.
 
 ## 🚀 Sobre mi
 
-Soy un desarrollador web fullstack que ha estado muy interesada en el mundo de la programación y el desarrollo web desde hace varios años, pero decidi dar un paso mas allá en 2022, al iniciar mi vida académica alrededor de estas tecnologías.
+Soy un desarrollador web fullstack que ha estado muy interesada en el mundo de la programación y el desarrollo web desde hace varios años, pero decidí dar un paso mas allá en 2022, al iniciar mi vida académica alrededor de estas tecnologías.
 
 ## Sugerencias y Preguntas
 
-Los datos de contacto estan en mi descripcion de perfil de GitHub, totalmente disponibles para cualquier sugerencia o pregunta.
+Los datos de contacto están en mi descripción de perfil de GitHub, totalmente disponibles para cualquier sugerencia o pregunta.
