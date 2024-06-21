@@ -1,12 +1,12 @@
 ---
 sidebar_position: 1
 slug: /
-title: "El Libro de Rust (Compacto)"
+title: Introducción
 hide_title: true
 ---
 
 <div align="center">
-    <h1>EL Libro de Rust (Compacto)</h1>
+    <h1>Introducción</h1>
     <p>v0.3.0 - Borrador</p>
     <p>Autor: Jason Walton</p>
     <p>Basado en <a href="https://doc.rust-lang.org/stable/book/">"The Rust Programming Language"</a>, de Steve Klabnik y Carol Nichols.</p>
